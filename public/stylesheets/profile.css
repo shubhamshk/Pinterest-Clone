@@ -1,0 +1,106 @@
+/* styles.css */
+
+/* Reset default styles */
+body, h1, p, a {
+  margin: 0;
+  padding: 0;
+  background-color: #E2E3CC;
+}
+
+/* Profile container */
+.profile-container {
+  width: 70%;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #E2E3CC; /* Set to white */
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile picture */
+.profile-picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 auto;
+  background-image: url('https://i.pinimg.com/564x/dc/68/9d/dc689df65590a4cdd1ee9850889b872e.jpg'); /* Replace with actual image path */
+  background-size: cover;
+  background-position: center;
+}
+
+/* Profile name */
+.profile-name {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Username */
+.username {
+  font-size: 16px;
+  /* color: #888; */
+  text-align: center;
+}
+
+/* Website link */
+.website {
+  background-color: white;
+  font-size: 14px;
+  color: #333;
+  text-align: center;
+  margin-top: 10px;
+}
+.website #cco {
+  /* Your styles for #cco go here */
+  display: inline-block;
+}
+
+/* Actions section */
+.actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+/* Follow link */
+.follow {
+  color: #007bff;
+  cursor: pointer;
+}
+
+/* Edit profile link */
+.edit-profile {
+  color: #333;
+  cursor: pointer;
+}
+
+.post-container{
+  margin-left: 20px;
+}
+
+.button{
+  display: inline-block;
+    background-color: #ff6347; /* Red color (you can choose your own) */
+    color: #ffffff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 10px; /* Adjust spacing as needed */
+}
+.file-upload{
+  position: relative;
+  margin-left: 250px;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: start;
+}
